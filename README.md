@@ -4,7 +4,7 @@ matlab-tanner-graphs is a tool written in Matlab for displaying, editing and exp
 It is easy to use, the Tanner graph is created directly from the parity check matrix.
 
 # Using matlab-tanner-graphs
-For creating a Tanner graph for the Hamming just type the following code in Matlab :
+For creating a Tanner graph for the Hamming, just type the following code in Matlab :
 ```matlab
 H = [1 0 1 0 1 0 1; 0 1 1 0 0 1 1; 0 0 0 1 1 1 1]; % Hamming parity check matrix
 tg = tanner_graph(H);                              % Build Tanner graph
