@@ -11,6 +11,7 @@ tg = tanner_graph(H);                              % Build Tanner graph
 plot(tg)                                           % Display Tanner graph
 ```
 The expected output should be this Tanner graph :
+
 ![Hamming_screenshot](https://user-images.githubusercontent.com/20512172/59837477-9bf80b80-934d-11e9-9942-7a5cbcf5893a.png)
 
 Now you can edit this graph by grabbing the nodes and moving them. 
@@ -24,4 +25,5 @@ h_tg = plot(tg);                                   % Display Tanner graph and ge
 h_tg.to_tikz('hamming.tex');                       % Export to a latex file
 ```
 After compiling hamming.tex with pdflatex you should have :
+
 ![Hamming Tikz](https://user-images.githubusercontent.com/20512172/59837506-a74b3700-934d-11e9-9066-fc3d8da9c460.png)
