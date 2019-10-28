@@ -4,6 +4,7 @@ classdef tanner_graph_handle < handle
     
     properties
         interpreter = 'latex'    % Interpreter for display
+        color = 'r'
         tikz_params = struct(... % Parameters Tikz export 
             'backgound_color'         , 'white',... 
             'variable_node_draw_color', 'blue',...
